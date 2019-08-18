@@ -1438,4 +1438,11 @@ body.offcanvas {
   #root {
     width: 90%;
     margin: 0 auto;
+    border: 3px solid black;
   }
+
+
+  #social li {
+    padding: 0px 7px !important;
+    display: inline-block;
+}
