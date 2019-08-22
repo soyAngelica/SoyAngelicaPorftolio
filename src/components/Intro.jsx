@@ -53,6 +53,13 @@ export default class Intro extends Component {
                           <h1>Mi Trabajo<br /></h1>
                           <blockquote>
                             <p></p>
+                            <ul>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
                           </blockquote>
                         </div>
                       </div>
