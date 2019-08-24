@@ -77,7 +77,8 @@ export default class Intro extends Component {
                         <div className="desc">
                           <h1>Contacto<br /></h1>
                           <blockquote>
-                            <p></p>
+                            <p>Escríbeme!</p>
+                            <p>55 6972 7405</p>
                           </blockquote>
                         </div>
                       </div>
