@@ -20,7 +20,14 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.7); 
+background: url(../images/FOND0.png);
+/* background-size: cover; */
+background-attachment: fixed;
+/* background-repeat: no-repeat; */
+}
+
+#colorlib-main {background:white}
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -39,7 +46,7 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #d8747f;
   font-family: 'News Cycle', sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -84,7 +91,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background:rgba(242,167,190,0.01) ;
+  background:white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -124,7 +131,7 @@ figure {
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
-      color: #000;
+      color: #d8747f;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
@@ -162,7 +169,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #177E47;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -185,7 +192,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #18ca68; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -1439,6 +1446,8 @@ body.offcanvas {
     width: 90%;
     margin: 0 auto;
     border: 3px solid black;
+    border-top:0px;
+    border-bottom:0px;
   }
 
 

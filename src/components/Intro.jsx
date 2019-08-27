@@ -14,8 +14,14 @@ export default class Intro extends Component {
                         <div className="desc">
                           <h1><br />Acerca de mi</h1>
                           <blockquote>
-                            <p>Tengo habilidad para aprender nuevas tecnologías y solucionar problemáticas. Fanática de la organización.</p>
-                            <p>Como freelancer trato de forma directa y más conectada con mis clientes, mientras disfruto trabajando en lo que más me gusta.</p>
+                            <p>Tengo habilidad para aprender nuevas tecnologías y solucionar problemáticas. Me considero fanática de la organización.</p>
+                            <p>Como freelancer trato de forma directa y más conectada con mis clientes, mientras disfruto trabajando en lo 
+                              que más me gusta. El buscar nuevos lugares y formas para crear, hace de cada desarrollo 
+                              una experiencia fresca y emocionante para mi.</p>
+                            <p>Como instructora trato siempre de dar perspectivas diferentes a cada taller y clase, 
+                              creo que es importante innovar cuando se trata de aprendizaje. Mi parte favorita es cuando aquel a quien se trasmite el conocimiento puede ampliar 
+                              su panorama y su entorno.
+                            </p>
                             <p>Me encanta viajar, andar en bici, instagram, la música y el té.</p>
                           </blockquote>
                         </div>
