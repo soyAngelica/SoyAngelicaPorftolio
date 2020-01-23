@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import logo from '../images/logo-350px.png';
 
 export default class Sidebar extends Component {
   render() {
@@ -9,22 +10,30 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/IMG_6728P.jpg)'}} />
-              <h1 id="colorlib-logo"><a href="index.html">Soy Angélica</a></h1>
-              <p>+52 55 6972 7405</p>
-              <p>soyangelica.aguilar@gmail.com</p>
+              <h1 id="colorlib-logo">
+                <a href="index.html">
+                  <img src={logo}  alt="" width="140" />
+                  <br></br>Soy Angélica
+                </a>
+              </h1>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Acerca de mi</a></li>
-                  <li><a href="#skills" data-nav-section="skills">Skills</a></li>
-                  <li><a href="#projects" data-nav-section="projects">Mi trabajo</a></li>
+                  <li><a href="#skills" data-nav-section="skills"> Full Stack </a></li>
+                  <li><a href="#contact" data-nav-section="projects">Mis Proyectos</a></li>                 
+                  <li><a href="#projects" data-nav-section="freelancer">Trabajo Freelancer</a></li>
                   {/* <li><a href="#blog" data-nav-section="blog">Blog</a></li> */}
-                  <li><a href="#contact" data-nav-section="contact">Contacto</a></li>
+                  
                 </ul>
               </div>
             </nav>
             <nav id="colorlib-main-menu">
+              <div className="contact">
+                <p>+52 55 6972-7405<br></br>
+                hola@soyangelica.com</p>
+              </div>
               <ul id="social">
                 <li><a href="https://twitter.com/sisoyangelica" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
                 <li><a href="https://github.com/soyAngelica/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
