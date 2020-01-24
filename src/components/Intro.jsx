@@ -61,7 +61,7 @@ export default class Intro extends Component {
                             <br></br>
                             Con ayuda de una campaña de crowfunding, impartimos talleres de uso sustentable de tecnología y programación, a más de 120 niños alrededor de 9 comunidades
                             en la región maya del Sur de México y el Norte de Guatemala. </p>
-                            <p>Este 2020, estoy continuando el arduo camino para ser Full Stack. <a href="#skills" data-nav-section="skills">¡Sigue mi progreso!</a> </p>
+                            <p id="navbar">Este 2020, estoy continuando el arduo camino para ser Full Stack. <a href="#projects" data-nav-section="projects">¡Sigue mi progreso!</a> </p>
                             <p>Me encanta viajar, andar en bici, instagram, la música y el té <span>🍵</span></p>
                           </blockquote>
                         </div>
@@ -154,6 +154,25 @@ export default class Intro extends Component {
                 </div>      
             </div>
         </section>
+        
+        <section id="colorlib-hero" className="extra-bottom" data-section="freelancer">          
+            <div className="overlay">
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-10 js-fullheight slider-text">
+                      <div className="slider-text-inner js-fullheight">
+                        <div className="desc">
+                          <h1>Mis favoritos como freelancer<br /></h1>
+                          <blockquote>
+                          </blockquote>
+                          <Gallery />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>      
+            </div>
+        </section>
         <section id="colorlib-hero" className="js-fullheight" data-section="projects">          
             <div className="overlay">
                 <div className="container-fluid">
@@ -167,24 +186,6 @@ export default class Intro extends Component {
                             <p><b>¡Muy pronto!</b></p>
 
                           </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>      
-            </div>
-        </section>
-        <section id="colorlib-hero" className="js-fullheight" data-section="freelancer">          
-            <div className="overlay">
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-10 js-fullheight slider-text">
-                      <div className="slider-text-inner js-fullheight">
-                        <div className="desc">
-                          <h1>Mis favoritos como freelancer<br /></h1>
-                          <blockquote>
-                          </blockquote>
-                          <Gallery />
                         </div>
                       </div>
                     </div>

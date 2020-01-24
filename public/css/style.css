@@ -21,10 +21,10 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); 
-background: url(../images/FOND0.png);
-/* background-size: cover; */
-background-attachment: fixed;
-/* background-repeat: no-repeat; */
+  background: url(../images/FOND01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 #colorlib-main {background:white}

@@ -21,9 +21,9 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Acerca de mi</a></li>
-                  <li><a href="#skills" data-nav-section="skills"> Full Stack </a></li>
-                  <li><a href="#contact" data-nav-section="projects">Mis Proyectos</a></li>                 
+                  <li><a href="#skills" data-nav-section="skills"> Skills</a></li>
                   <li><a href="#projects" data-nav-section="freelancer">Trabajo Freelancer</a></li>
+                  <li><a href="#contact" data-nav-section="projects">Mis Proyectos</a></li>                 
                   {/* <li><a href="#blog" data-nav-section="blog">Blog</a></li> */}
                   
                 </ul>
@@ -31,6 +31,9 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <div className="contact">
+                <h3 id="contact_h">
+                  ¡Hablemos!
+                </h3>
                 <p>+52 55 6972-7405<br></br>
                 hola@soyangelica.com</p>
               </div>
