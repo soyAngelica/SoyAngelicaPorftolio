@@ -3,6 +3,7 @@ import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip from 'react-tooltip';
 import Gallery from './Gallery';
 
+import logo from '../images/logo-350px.png';
 import logo1 from '../images/iconos/html5.png';
 import logo2 from '../images/iconos/css3.png';
 import logo3 from '../images/iconos/javascript.png';
@@ -51,6 +52,9 @@ export default class Intro extends Component {
                     <div className="col-md-10 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
+                          <div className="text-center mobile">
+                            <div className="author-img" style={{backgroundImage: 'url(images/IMG_6728P.jpg)'}} />              
+                          </div>
                           <h1><br />Acerca de mi</h1>
                           <blockquote>
                             <p>¡Hola! Gracias por visitar mi sitio.</p>
@@ -180,9 +184,9 @@ export default class Intro extends Component {
                     <div className="col-md-10 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Mis Proyectos<br /></h1>
+                          <h1>Mis Proyectos - Full Stack Trainning<br /></h1>
                           <blockquote>
-                            <p><b>Proyectos desarrollados en mi Full Stack Trainning</b></p>
+                            {/* <p><b>Proyectos desarrollados en mi </b></p> */}
                             <p><b>¡Muy pronto!</b></p>
 
                           </blockquote>

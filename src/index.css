@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  background: white;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -17,7 +22,7 @@ p {font-size:20px !important}
 .Logos {
   margin-bottom:20px;
   padding: 30px 15px;
-  background: rgba(231, 167, 3, 0.15); 
+  background: rgba(231, 167, 3, 0.11); 
   min-height: 160px;
 }
 
@@ -52,6 +57,7 @@ h2 {color:rgba(0, 0, 0, 0.7)}
   text-align:center;
   color:rgb(231, 167, 3);
   font-weight: 600;
+  letter-spacing: 0.6px;
 }
 
 a, a:hover {color:rgb(223, 161, 6);}
@@ -101,7 +107,7 @@ a, a:hover {color:rgb(223, 161, 6);}
   margin: 0 auto;
 }
 
-.gallery-grid li { display:inline-block; padding:0px 30px;}
+.gallery-grid li { display:inline-block; padding:0px 10px;}
 
 .gallery-grid img {
   max-width: 97%;
@@ -139,6 +145,194 @@ a, a:hover {color:rgb(223, 161, 6);}
 
 }
 
+.mobile {display:none !important}
+
+.Logos li {
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-height: 820px) {
+
+      .author-img {
+          width: 180px !important;
+          height: 180px !important;
+      }
+
+      #colorlib-logo img {
+        max-width: 100px;
+    }
+
+    #colorlib-aside #colorlib-logo a {
+      font-size: 23px;
+    }
+    #colorlib-main-menu {
+      margin-top: 15px;
+      margin-bottom: 5px !important;
+    }
+
+    #colorlib-aside #colorlib-main-menu ul li {
+      margin: 3px;
+    }
+    #contact_h {
+      font-size: 20px !important;
+      margin-bottom: 10px;
+    }
+    .contact p {
+      font-size:17px !important;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+
+
+} 
 
 
 
+
+@media screen and (max-width: 1610px) {
+  .bloques {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 1330px) {
+
+  .gallery-grid li {width:50% !important;}
+  .js-fullheight {padding-bottom:20px !important; height: auto !important;}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .col-md-10 {
+    width: 100%;
+  }
+
+  .colorlib-nav-toggle {
+    position: fixed;
+    left: 47px;
+    top: -15px;
+  }
+
+
+  #colorlib-aside {
+      width: 300px;
+      -moz-transform: translateX(-500px);
+      -webkit-transform: translateX(-500px);
+      -ms-transform: translateX(-500px);
+      -o-transform: translateX(-500px);
+      transform: translateX(-500px);
+      padding-top: 4em;
+  }
+
+  #colorlib-hero {
+      padding-top: 30px;
+  }
+
+  .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after, .colorlib-nav-toggle i {
+    background: #d8747f;
+  }
+
+  .no-mobile {display:none !important;}
+  .mobile {display:block !important}
+
+  .author-img {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+
+  h1 {
+      text-align: center;
+      font-size: 32px;
+  }
+
+  .js-fullheight {padding-bottom:20px !important; height: auto !important;}
+  .Logos li {
+    margin-bottom: 15px;
+  }
+
+  .extra-bottom {
+      padding-bottom: 40px;
+  }
+
+  #root {
+      background: #f2f3f7;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  section#colorlib-hero p {
+    font-size: 18px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+    
+  .colorlib-nav-toggle {
+    position: fixed;
+    left: 27px;
+    top: -15px;
+  }
+
+
+ 
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .gallery-grid li {
+    width: 100% !important;
+  }
+
+  #colorlib-aside #colorlib-logo a {
+    font-size: 23px;
+  }
+  #colorlib-main-menu {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+  }
+
+  #colorlib-aside #colorlib-main-menu ul li {
+    margin: 3px;
+  }
+  #contact_h {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+  }
+  .contact p {
+    font-size:17px !important;
+  }
+
+  .contact {
+    margin-top: 30px;
+  }
+
+  .navbar {
+    position: relative;
+    min-height: 150px;
+  }
+
+  .Logos li {
+    margin-bottom: 22px;
+  }
+  div.bloques.col-md-7 > ul > li:nth-child(4) {margin-left: 16px;}
+
+}

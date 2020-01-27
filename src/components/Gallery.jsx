@@ -6,13 +6,13 @@ const imgUrls = [
 
   {
     src:'http://soyangelica.com/images/marvel.jpg', 
-    link: 'http://paninicoleccion.com.mx/marvel/#!/home', 
+    link: 'http://soyangelica.com/archives/panini-heroes', 
     name: 'Marvel - Panini Colection'
   },
 
   {
     src: 'http://soyangelica.com/images/duracell.jpg', 
-    link: 'http://duracellauto.com.mx/mexico/',
+    link: 'http://soyangelica.com/archives/panini-ferrari',
     name: 'Duracell México'
   },   
   {
@@ -72,7 +72,7 @@ class Gallery extends Component {
         <div className="gallery-grid">
         <ul className="row">
           {imgUrls.map(p =>
-              <li className="col-md-4 col-sx-12">
+              <li className="col-lg-4 col-md-6 col-sx-12">
                 <a href={p.link} target="_blank">
                   <img src={p.src} />
                   <h3>{p.name}</h3>
