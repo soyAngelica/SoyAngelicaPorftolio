@@ -1,0 +1,12 @@
+
+{
+    "nav": {
+    "home": "Acerca de mi ",
+    "skills": "Skills",
+    "freelancer": "Trabajo Freelancer",
+    "projects": "Mis Proyectos"
+    },
+    "home": {
+        "h1": "Acerca de mi"
+    }
+}
