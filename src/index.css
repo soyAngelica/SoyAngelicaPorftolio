@@ -152,6 +152,25 @@ a, a:hover {color:rgb(223, 161, 6);}
 }
 
 
+
+.langPick {
+  font-size:18px;
+  font-weight: 600;
+  color:#d8747f;
+}
+
+.langPick button { 
+  background:transparent; 
+  border:none !important; 
+  outline:none !important; 
+  color:#d8747f;
+  font-family: 'News Cycle', sans-serif; 
+
+}
+
+
+
+
 @media screen and (max-height: 820px) {
 
       .author-img {

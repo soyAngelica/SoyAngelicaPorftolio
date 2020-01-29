@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip from 'react-tooltip';
 import Gallery from './Gallery';
+import  Translate  from './Translate';
 
 import logo from '../images/logo-350px.png';
 import logo1 from '../images/iconos/html5.png';
@@ -55,9 +56,9 @@ export default class Intro extends Component {
                           <div className="text-center mobile">
                             <div className="author-img" style={{backgroundImage: 'url(images/IMG_6728P.jpg)'}} />              
                           </div>
-                          <h1><br />Acerca de mi</h1>
+                          <h1><br /><Translate string={'home.h1'}/></h1>
                           <blockquote>
-                            <p>¡Hola! Gracias por visitar mi sitio.</p>
+                            <p><Translate string={'home.p1'}/></p>
                             <p>Hace 8 años empecé como maquetadora, desde el 2014 soy mentor en cursos y talleres de desarrollo web e introducción a programación.
                              A lo largo de este tiempo, he trabajado construyendo diversos proyectos como freelancer.                        
                             </p>

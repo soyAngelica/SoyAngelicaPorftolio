@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/logo-350px.png';
+import LanguagePicker from "./LanguagePicker";
+import  Translate  from './Translate';
 
 export default class Sidebar extends Component {
   render() {
@@ -16,14 +18,15 @@ export default class Sidebar extends Component {
                   <br></br>Soy Angélica
                 </a>
               </h1>
+              <LanguagePicker changeLanguage={this.props.changeLanguage} />
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Acerca de mi</a></li>
+                  <li className="active"><a href="#home" data-nav-section="home"><Translate string={'home.h1'}/></a></li>
                   <li><a href="#skills" data-nav-section="skills"> Skills</a></li>
-                  <li><a href="#projects" data-nav-section="freelancer">Trabajo Freelancer</a></li>
-                  <li><a href="#contact" data-nav-section="projects">Mis Proyectos</a></li>                 
+                  <li><a href="#projects" data-nav-section="freelancer"><Translate string={'nav.freelancer'}/></a></li>
+                  <li><a href="#contact" data-nav-section="projects"><Translate string={'nav.projects'}/></a></li>                 
                   {/* <li><a href="#blog" data-nav-section="blog">Blog</a></li> */}
                   
                 </ul>
@@ -32,7 +35,7 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu">
               <div className="contact">
                 <h3 id="contact_h">
-                  ¡Hablemos!
+                  <Translate string={'contact'}/>
                 </h3>
                 <p>+52 55 6972-7405<br></br>
                 hola@soyangelica.com</p>

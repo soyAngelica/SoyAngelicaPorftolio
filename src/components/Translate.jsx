@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { LocaleContext } from "../context";
 
+
 import en from "../translations/en.json";
 import es from "../translations/es.json";
 
