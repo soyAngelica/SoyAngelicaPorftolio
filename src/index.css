@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background: white;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {font-size:20px !important}
+
+.Logos {
+  margin-bottom:20px;
+  padding: 30px 15px;
+  background: rgba(231, 167, 3, 0.11); 
+  min-height: 160px;
+}
+
+
+.Logos.mediogray {
+  filter: grayscale(60%);
+  opacity:0.8
+}
+
+.Logos.gray {
+  filter: grayscale(100%);
+  background: rgba(64, 65, 64, 0.3);
+  opacity:0.6
+}
+
+.Logos li {
+  display:inline-block;
+  margin-left:25px;
+}
+
+
+.bloques {min-height: 270px;}
+
+h2 {color:rgba(0, 0, 0, 0.7)}
+
+.extra-bottom {padding-bottom:300px}
+.extra-top {padding-top:100px}
+
+.contact {margin-top:60px;}
+.contact p {
+  font-size:19px !important;
+  text-align:center;
+  color:rgb(231, 167, 3);
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+a, a:hover {color:rgb(223, 161, 6);}
+
+.navbar li {font-size:14px !important}
+
+#colorlib-aside #colorlib-main-menu ul li.active a {
+  color:green;
+}
+
+#colorlib-main-menu {margin-top:40px;}
+
+
+#colorlib-aside #colorlib-logo a {
+  font-weight: 650;
+}
+
+
+#contact_h {font-size:24px !important; font-weight: 400 !important; color:rgba(0, 0, 0, 0.7);text-align:center}
+
+
+
+
+
+
+.gallery-container {
+  padding: .9375rem 0;
+}
+.gallery-container h1 {
+  margin: 2rem 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 6.5vw;
+  font-weight: lighter;
+}
+
+
+
+
+.gallery-grid {
+  display: grid;
+  grid-gap: 8px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-grid li { display:inline-block; padding:0px 10px;}
+
+.gallery-grid img {
+  max-width: 97%;
+  display: block;
+  margin: 0px auto;
+}
+
+
+.gallery-grid div {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.gallery-grid a h3  {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0px;
+  text-align: center;
+  display: block;
+  -webkit-transition: all  12s linear infinite;
+  transition: all 12s linear infinite;
+}
+
+
+.gallery-grid a:hover h3  {color: rgba(0, 0, 0, 0.7); 
+  text-shadow:
+  -0.1px -0.1px 0 rgba(0, 0, 0, 0.7),
+  0.1px 0.1px 0 rgba(0, 0, 0, 0.7);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+
+
+}
+
+.mobile {display:none !important}
+
+.Logos li {
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-height: 820px) {
+
+      .author-img {
+          width: 180px !important;
+          height: 180px !important;
+      }
+
+      #colorlib-logo img {
+        max-width: 100px;
+    }
+
+    #colorlib-aside #colorlib-logo a {
+      font-size: 23px;
+    }
+    #colorlib-main-menu {
+      margin-top: 15px;
+      margin-bottom: 5px !important;
+    }
+
+    #colorlib-aside #colorlib-main-menu ul li {
+      margin: 3px;
+    }
+    #contact_h {
+      font-size: 20px !important;
+      margin-bottom: 10px;
+    }
+    .contact p {
+      font-size:17px !important;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+
+
+} 
+
+
+
+
+@media screen and (max-width: 1610px) {
+  .bloques {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 1330px) {
+
+  .gallery-grid li {width:50% !important;}
+  .js-fullheight {padding-bottom:20px !important; height: auto !important;}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .col-md-10 {
+    width: 100%;
+  }
+
+  .colorlib-nav-toggle {
+    position: fixed;
+    left: 47px;
+    top: -15px;
+  }
+
+
+  #colorlib-aside {
+      width: 300px;
+      -moz-transform: translateX(-500px);
+      -webkit-transform: translateX(-500px);
+      -ms-transform: translateX(-500px);
+      -o-transform: translateX(-500px);
+      transform: translateX(-500px);
+      padding-top: 4em;
+  }
+
+  #colorlib-hero {
+      padding-top: 30px;
+  }
+
+  .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after, .colorlib-nav-toggle i {
+    background: #d8747f;
+  }
+
+  .no-mobile {display:none !important;}
+  .mobile {display:block !important}
+
+  .author-img {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+
+  h1 {
+      text-align: center;
+      font-size: 32px;
+  }
+
+  .js-fullheight {padding-bottom:20px !important; height: auto !important;}
+  .Logos li {
+    margin-bottom: 15px;
+  }
+
+  .extra-bottom {
+      padding-bottom: 40px;
+  }
+
+  #root {
+      background: #f2f3f7;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  section#colorlib-hero p {
+    font-size: 18px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+    
+  .colorlib-nav-toggle {
+    position: fixed;
+    left: 27px;
+    top: -15px;
+  }
+
+
+ 
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .gallery-grid li {
+    width: 100% !important;
+  }
+
+  #colorlib-aside #colorlib-logo a {
+    font-size: 23px;
+  }
+  #colorlib-main-menu {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+  }
+
+  #colorlib-aside #colorlib-main-menu ul li {
+    margin: 3px;
+  }
+  #contact_h {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+  }
+  .contact p {
+    font-size:17px !important;
+  }
+
+  .contact {
+    margin-top: 30px;
+  }
+
+  .navbar {
+    position: relative;
+    min-height: 150px;
+  }
+
+  .Logos li {
+    margin-bottom: 22px;
+  }
+  div.bloques.col-md-7 > ul > li:nth-child(4) {margin-left: 16px;}
+
+}
