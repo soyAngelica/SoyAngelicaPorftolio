@@ -3,5 +3,11 @@
     "home.p1": "Hi there! I'm Angélica and I'm mexican.",
     "nav.freelancer": "As a Freelancer",
     "nav.projects": "My own Projects",
-    "contact": "Let's talk!"
+    "contact": "Let's talk!",
+    "skills.g": "Graphics",
+    "skills.a": "Learning",
+    "skills.p": "Upcoming",
+    "freelancer.w": "My Favorites",
+    "myprojects.h1" : "My own Projects - Full Stack Trainning",
+    "myprojects.p1": "Cooming soon!"
 }

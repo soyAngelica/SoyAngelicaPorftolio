@@ -59,15 +59,15 @@ export default class Intro extends Component {
                           <h1><br /><Translate string={'home.h1'}/></h1>
                           <blockquote>
                             <p><Translate string={'home.p1'}/></p>
-                            <p>Hace 8 años empecé como maquetadora, desde el 2014 soy mentor en cursos y talleres de desarrollo web e introducción a programación.
-                             A lo largo de este tiempo, he trabajado construyendo diversos proyectos como freelancer.                        
-                            </p>
-                            <p>En 2017 emprendí junto a <a href="https://gustavomerckel.com/" target="_blank" rel="noopener noreferrer">Gustavo Merckel</a>, una caravana educativa llamada <a href="https://mentesambulantes.org/" target="_blank" rel="noopener noreferrer">Mentes ambulantes</a>.
+                            <p><Translate string={'home.p2'}/></p>
+                            <p>
+                            <Translate string={'home.p3'}/> <a href='https://gustavomerckel.com/' target='_blank' rel='noopener noreferrer'> Gustavo Merckel</a>, 
+                             <Translate string={'home.p3-2'}/> <a href='https://mentesambulantes.org/' target='_blank' rel='noopener noreferrer'> Mentes ambulantes</a>.
                             <br></br>
-                            Con ayuda de una campaña de crowfunding, impartimos talleres de uso sustentable de tecnología y programación, a más de 120 niños alrededor de 9 comunidades
-                            en la región maya del Sur de México y el Norte de Guatemala. </p>
-                            <p id="navbar">Este 2020, estoy continuando el arduo camino para ser Full Stack. <a href="#projects" data-nav-section="projects">¡Sigue mi progreso!</a> </p>
-                            <p>Me encanta viajar, andar en bici, instagram, la música y el té <span>🍵</span></p>
+                            <Translate string={'home.p4'}/> 
+                            </p>
+                            <p id="navbar"><Translate string={'home.p5'}/> <a href='#projects' data-nav-section='projects'><Translate string={'home.p5-2'}/> </a> </p>
+                            <p> <Translate string={'home.p6'}/> <span>🍵</span></p>
                           </blockquote>
                         </div>
                       </div>
@@ -114,7 +114,7 @@ export default class Intro extends Component {
                                 </ul>
                               </div>
                               <div className="bloques col-md-6">
-                              <h2>Gráficos</h2>
+                              <h2><Translate string={'skills.g'}/></h2>
                               <ul className="Logos">
                                 <li ><img src={logo11} title="Photoshop" alt="" width="68" /></li> 
                                 <li ><img src={logo12} title="Illustrator" alt="" width="68" /></li> 
@@ -123,7 +123,7 @@ export default class Intro extends Component {
                             </div>
 
                             <div>
-                              <h1>Aprendiendo</h1>
+                              <h1><Translate string={'skills.a'}/></h1>
                               <ul className="Logos mediogray">
                                 <li ><img src={logo101} alt="" title="Node.js" width="78" /></li>
                                 <li ><img src={logo102} alt="" title="React.js" width="78" /></li>
@@ -134,7 +134,7 @@ export default class Intro extends Component {
                             </div>
 
                             <div>
-                              <h1>Proximamente</h1>
+                              <h1><Translate string={'skills.p'}/></h1>
                               <ul className="Logos gray">
                                 <li ><img src={logo201} alt="" title="Mongo DB" width="98" /></li>  
                                 <li ><img src={logo202} alt="" title="Next.js" width="88" /></li>
@@ -146,7 +146,7 @@ export default class Intro extends Component {
                               </ul>
                             </div>
                             <div className="extra-top">
-                              <h1>Mi Tracking</h1>
+                              <h1>Tracking</h1>
                               <GitHubCalendar username="soyAngelica" blockSize={17} color="#d8747f"
                                fontSize={17} fullYear={false} years={[2019, 2020]}>
                                 <ReactTooltip delayShow={50} html />
@@ -164,10 +164,10 @@ export default class Intro extends Component {
             <div className="overlay">
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-md-10 js-fullheight slider-text">
-                      <div className="slider-text-inner js-fullheight">
+                    <div className="col-md-11  slider-text">
+                      <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Mis favoritos como freelancer<br /></h1>
+                          <h1><Translate string={'freelancer.w'}/><br /></h1>
                           <blockquote>
                           </blockquote>
                           <Gallery />
@@ -185,10 +185,10 @@ export default class Intro extends Component {
                     <div className="col-md-10 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Mis Proyectos - Full Stack Trainning<br /></h1>
+                          <h1><Translate string={'myprojects.h1'}/><br /></h1>
                           <blockquote>
                             {/* <p><b>Proyectos desarrollados en mi </b></p> */}
-                            <p><b>¡Muy pronto!</b></p>
+                            <p><b><Translate string={'myprojects.p1'}/></b></p>
 
                           </blockquote>
                         </div>
