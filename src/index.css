@@ -51,7 +51,7 @@ h2 {color:rgba(0, 0, 0, 0.7)}
 .extra-bottom {padding-bottom:300px}
 .extra-top {padding-top:100px}
 
-.contact {margin-top:60px;}
+.contact {margin-top:40px;}
 .contact p {
   font-size:19px !important;
   text-align:center;
@@ -177,8 +177,15 @@ a, a:hover {color:rgb(223, 161, 6);}
   padding-left: 0px !important;
 }
 
+.colorlib-footer {padding-top:15px !important;}
 
-@media screen and (max-height: 820px) {
+
+@media screen and (max-height: 880px) {
+
+  #colorlib-aside #colorlib-logo {
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
 
       .author-img {
           width: 180px !important;
@@ -206,11 +213,14 @@ a, a:hover {color:rgb(223, 161, 6);}
     }
     .contact p {
       font-size:17px !important;
+      margin-bottom:5px;
     }
 
     .contact {
-      margin-top: 30px;
+      margin-top: 25px;
     }
+
+    .colorlib-footer {display: none !important}
 
 
 } 
