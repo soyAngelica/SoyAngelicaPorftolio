@@ -1,6 +1,16 @@
 {
     "home.h1":"About me",
     "home.p1": "Hi there! I'm Angélica and I'm mexican.",
+
+    "home.p2" : "I started as Front-end 8 years ago, since 2014 I'm mentor of web development and introduction to programming workshops and courses. During this time I've been building projects working as freelancer.",
+    "home.p3" : "In 2017 my parner ",
+    "home.p3-2" : " and I started an educative roadtrip called ",
+    "home.p4": "Helped by a crowdfunding campaign, we teach workshops on sustainable use of technology and programming to more than 120 kids around of 9 communities in the Maya region from Southern Mexico and Northern Guatemala. ",
+    "home.p5" : "This 2020 I'm keeping the hard journey to be a Full Stack.",
+    "home.p5-2": "¡Follow my progress !",
+    "home.p6": "I love traveling, riding a bike, instagram, music and tea",
+
+
     "nav.freelancer": "As a Freelancer",
     "nav.projects": "My own Projects",
     "contact": "Let's talk!",

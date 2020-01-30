@@ -61,7 +61,7 @@ export default class Intro extends Component {
                             <p><Translate string={'home.p1'}/></p>
                             <p><Translate string={'home.p2'}/></p>
                             <p>
-                            <Translate string={'home.p3'}/> <a href='https://gustavomerckel.com/' target='_blank' rel='noopener noreferrer'> Gustavo Merckel</a>, 
+                            <Translate string={'home.p3'}/> <a href='https://gustavomerckel.com/' target='_blank' rel='noopener noreferrer'> Gustavo Merckel</a> 
                              <Translate string={'home.p3-2'}/> <a href='https://mentesambulantes.org/' target='_blank' rel='noopener noreferrer'> Mentes ambulantes</a>.
                             <br></br>
                             <Translate string={'home.p4'}/> 
@@ -86,7 +86,7 @@ export default class Intro extends Component {
                             <div>
                               <h1>Skills</h1>
                               <div className="bloques col-md-7">
-                                <h2>Frontend</h2>
+                                <h2>Front-end</h2>
                                 <ul className="Logos">
                                   <li ><img src={logo1} title="HTML5" alt="html5" width="68" /></li>
                                   <li ><img src={logo2} title="CSS3" alt="css3" width="68" /></li>
@@ -97,7 +97,7 @@ export default class Intro extends Component {
                                 </ul>                             
                               </div>
                               <div className="bloques col-md-5">
-                                <h2>Backend</h2>
+                                <h2>Back-End</h2>
                                 <ul className="Logos">  
                                   <li ><img src={logo6} title="PHP" alt="" width="98" /></li> 
                                   <li ><img src={logo7} title="MySQL" alt="" width="98" /></li> 
