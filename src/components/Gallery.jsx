@@ -14,13 +14,13 @@ const imgUrls = [
   {
     id:2,
     src: 'http://soyangelica.com/images/duracell.jpg', 
-    link: 'http://soyangelica.com/archives/panini-ferrari',
+    link: 'http://duracellauto.com.mx/',
     name: 'Duracell México'
   },   
   {
     id:3,
     src:'http://soyangelica.com/images/ferrari.jpg',
-    link:'http://paninicoleccion.com.mx/ferrari/', 
+    link:'http://soyangelica.com/archives/panini-ferrari', 
     name:'Ferrari  - Panini Colection'
   },
   

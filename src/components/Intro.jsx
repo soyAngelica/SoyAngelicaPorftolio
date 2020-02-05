@@ -147,7 +147,7 @@ export default class Intro extends Component {
                             </div>
                             <div className="extra-top">
                               <h1>Tracking</h1>
-                              <GitHubCalendar username="soyangelica" blockSize={17} color="#d8747f"
+                              <GitHubCalendar username="soyAngelica" blockSize={17} color="#d8747f"
                                fontSize={17} fullYear={false} years={[2019, 2020]}>
                                 <ReactTooltip delayShow={50} html />
                               </GitHubCalendar>
