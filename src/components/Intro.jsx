@@ -36,7 +36,7 @@ import logo204 from '../images/iconos/typeScript.png';
 import logo205 from '../images/iconos/graphql-logo.png';
 import logo206 from '../images/iconos/gastby-logo.png'; 
 import logo207 from '../images/iconos/MaterialUILogo.png'; 
-
+import logo208 from '../images/iconos/mongoose.png'; 
 
 
 
@@ -91,14 +91,16 @@ export default class Intro extends Component {
                                   <li ><img src={logo1} title="HTML5" alt="html5" width="68" /></li>
                                   <li ><img src={logo2} title="CSS3" alt="css3" width="68" /></li>
                                   <li ><img src={logo3} title="JavaScript" alt="javascript" width="60" /></li>
+                                  <li ><img src={logo5} title="Bootstrap" alt="" width="68" /></li> 
+                                  <li ><img src={logo104} alt="" title="Sass" width="108" /></li>
                                   <li ><img src={logo14} title="Jquery" alt="" width="84" /></li>
                                   <li ><img src={logo4} title="Angular JS" alt="" width="74" /></li>
-                                  <li ><img src={logo5} title="Bootstrap" alt="" width="68" /></li> 
                                 </ul>                             
                               </div>
                               <div className="bloques col-md-5">
                                 <h2>Back-End</h2>
                                 <ul className="Logos">  
+                                  <li ><img src={logo101} alt="" title="Node.js" width="78" /></li>
                                   <li ><img src={logo6} title="PHP" alt="" width="98" /></li> 
                                   <li ><img src={logo7} title="MySQL" alt="" width="98" /></li> 
                                 </ul>
@@ -106,10 +108,10 @@ export default class Intro extends Component {
                               <div className="bloques col-md-6">
                                 <h2>CMS & Ecommerce</h2>
                                 <ul className="Logos">
-                                  <li ><img src={logo13} title="Open Journal System" alt="" width="90" /></li>
                                   <li ><img src={logo8} title="Wordpress" alt="" width="68" /></li> 
                                   <li ><img src={logo9} title="Shopify" alt="" width="65" /></li> 
                                   <li ><img src={logo10} title="Prestashop" alt="" width="70" /></li>
+                                  <li ><img src={logo13} title="Open Journal System" alt="" width="90" /></li>
                                   
                                 </ul>
                               </div>
@@ -125,10 +127,12 @@ export default class Intro extends Component {
                             <div>
                               <h1><Translate string={'skills.a'}/></h1>
                               <ul className="Logos mediogray">
-                                <li ><img src={logo101} alt="" title="Node.js" width="78" /></li>
-                                <li ><img src={logo102} alt="" title="React.js" width="78" /></li>
+                                
                                 <li ><img src={logo103} alt="" title="Express.js" width="108" /></li>
-                                <li ><img src={logo104} alt="" title="Sass" width="108" /></li>
+                                <li ><img src={logo102} alt="" title="React.js" width="78" /></li>
+                                <li ><img src={logo201} alt="" title="MongoDB" width="98" /></li>  
+                                <li ><img src={logo208} alt="" title="Mongoose" width="108" /></li> 
+                                <li ><img src={logo207} alt="" title="Material UI" width="98" /></li>  
                                 
                               </ul>
                             </div>
@@ -136,18 +140,16 @@ export default class Intro extends Component {
                             <div>
                               <h1><Translate string={'skills.p'}/></h1>
                               <ul className="Logos gray">
-                                <li ><img src={logo201} alt="" title="Mongo DB" width="98" /></li>  
+                                <li ><img src={logo206} alt="" title="Gatsby" width="128" /></li>                                                         
+                                <li ><img src={logo203} alt="" title="Redux" width="98" /></li> 
                                 <li ><img src={logo202} alt="" title="Next.js" width="88" /></li>
-                                <li ><img src={logo203} alt="" title="Redux" width="98" /></li>
-                                <li ><img src={logo207} alt="" title="Material UI" width="98" /></li>                                                         
                                 <li ><img src={logo204} alt="" title="TypeScript" width="98" /></li>
                                 <li ><img src={logo205} alt="" title="GraphQL" width="98" /></li>                                                         
-                                <li ><img src={logo206} alt="" title="Gatsby" width="128" /></li>                                                         
                               </ul>
                             </div>
                             <div className="extra-top">
                               <h1>Tracking</h1>
-                              <GitHubCalendar username="soyAngelica" blockSize={17} color="#d8747f"
+                              <GitHubCalendar username="soyangelica" blockSize={17} color="#d8747f"
                                fontSize={17} fullYear={false} years={[2019, 2020]}>
                                 <ReactTooltip delayShow={50} html />
                               </GitHubCalendar>
