@@ -192,6 +192,12 @@ export default class Intro extends Component {
                             {/* <p><b>Proyectos desarrollados en mi </b></p> */}
                             <p><b><Translate string={'myprojects.p1'}/></b></p>
 
+                            <div className="col-md-6 js-fullheight slider-text">
+                              <p><b>World data de #COVIDー19</b></p>
+                              <p><b>React.js + Hooks + Next.js | API http://covid19.mathdro.id/api</b></p>
+                              <p><b><a href="codvid-19.herokuapp.com">codvid-19.herokuapp.com</a></b></p>
+                            </div>
+
                           </blockquote>
                         </div>
                       </div>
